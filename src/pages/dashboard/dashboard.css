@@ -29,11 +29,13 @@
   }
   
   .flip-card-back {
-    background-color: #2a2a2a;
-    color: white;
+    /* background-color: #2a2a2a;
+     */
+    /* color: white; */
     transform: rotateY(180deg);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(39, 39, 39, 0.5);
   }
   

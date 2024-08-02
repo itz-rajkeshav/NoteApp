@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       'playwrite': ['"Playwrite AU NSW"', 'cursive'],
+      poppins: ['Poppins', 'sans-serif'],
     },
   },
   plugins: [],
