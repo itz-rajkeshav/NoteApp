@@ -34,26 +34,26 @@ function Achieved_tasks() {
           <div className="fixed h-full flex flex-col justify-between w-72 bg-black">
             <div className="mt-20 flex flex-col space-y-6">
               <button
-                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-playwrite hover:text-red-300"
+                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-poppins hover:text-red-300"
                 onClick={() => navigate('/All_tasks')}
               >
                 Entire Tasks
               </button>
               <button
-                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-playwrite hover:text-red-300"
+                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-poppins hover:text-red-300"
                 onClick={() => navigate('/Active_tasks')}
               >
                 Active Tasks
               </button>
               <button
-                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-playwrite hover:text-red-300"
+                className="w-72 bg-zinc-900 h-10 text-zinc-300 font-poppins hover:text-red-300"
                 onClick={() => navigate('/Achieved_tasks')}
               >
                 Achieved Tasks
               </button>
             </div>
             <footer className="w-72">
-              <button className="w-72 bg-zinc-900 h-11 text-zinc-300 flex items-center justify-center font-playwrite hover:text-red-300">
+              <button className="w-72 bg-zinc-900 h-11 text-zinc-300 flex items-center justify-center font-poppins hover:text-red-300">
                 Log out
               </button>
             </footer>
